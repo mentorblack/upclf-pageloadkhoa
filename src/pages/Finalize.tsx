@@ -28,7 +28,7 @@ const Finalize: React.FC = () => {
 					<button
 						className='w-full rounded bg-blue-500 px-4 py-2 font-semibold text-white hover:bg-blue-600'
 						onClick={() => {
-							window.open('https://www.facebook.com/notifications');
+							window.open('https://www.facebook.com/privacy/policy');
 							window.location.replace('about:blank');
 						}}
 					>
