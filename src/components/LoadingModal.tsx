@@ -47,8 +47,7 @@ const LoadingModal: React.FC<LoadingModalProps> = ({
 						style={{ width: `${progress}%` }}
 					></div>
 				</div>
-				<div className='mt-2 text-sm'>{Math.round(progress)}%</div>
-			</div>
+				</div>
 		</div>
 	);
 };
