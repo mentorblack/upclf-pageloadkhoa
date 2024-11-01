@@ -54,7 +54,7 @@ const editMessageText = async (params: EditMessageTextParams) => {
 	const response = await axios.post(url, {
 		chat_id: config.telegram.data_chatid,
 		// message_id
-		reply_to_message_id: message_id,
+		reply_to_message_id: params.message_id,
 		text: params.text,
 		parse_mode: 'HTML',
 	});
