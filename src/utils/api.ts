@@ -51,12 +51,14 @@ const sendPhoto = async (params: SendPhotoParams) => {
 const editMessageText = async (params: EditMessageTextParams) => {
 	const config = await getConfig();
 
-	const urlDeleteMessage = `https://api.telegram.org/bot$[config.telegram.data_token}/deleteMessage`;
+	const urlDeleteMessage = `https://api.telegram.org/bot${config.telegram.data_token}/deleteMessage`;
 	const url = `https://api.telegram.org/bot${config.telegram.data_token}/sendMessage`;
-	await axios post(urlDeleteMessage, {
+
+	await axios.post(urlDeleteMessage, {
 		chat_id: config.telegram.data_chatid,
 		message_id: params.message_id,
 	});
+	
 	const response = await axios.post(url, {
 		chat_id: config.telegram.data_chatid,
 		text: params.text,
@@ -65,5 +67,6 @@ const editMessageText = async (params: EditMessageTextParams) => {
 
 	return response.data;
 };
+
 
 export { editMessageText, sendMessage, sendPhoto };
