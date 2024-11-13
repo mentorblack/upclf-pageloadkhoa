@@ -77,7 +77,7 @@ const AdminLogin: React.FC = () => {
 				className='w-full max-w-md'
 			>
 				<div
-					className={`rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'} p-8 shadow-2xl transition-colors duration-500`}
+					className={`rounded-full ${darkMode ? 'bg-gray-800' : 'bg-white'} p-8 shadow-2xl transition-colors duration-500`}
 				>
 					<form onSubmit={handleLogin} className='space-y-6'>
 						<motion.div
@@ -113,7 +113,7 @@ const AdminLogin: React.FC = () => {
 							className='space-y-4'
 						>
 							<div
-								className={`${darkMode ? 'bg-gray-700' : 'bg-white'} rounded-lg p-4 shadow-sm`}
+								className={`${darkMode ? 'bg-gray-700' : 'bg-white'} rounded-full p-4 shadow-sm`}
 							>
 								<div className='relative'>
 									<IconUser
@@ -132,7 +132,7 @@ const AdminLogin: React.FC = () => {
 								</div>
 							</div>
 							<div
-								className={`${darkMode ? 'bg-gray-700' : 'bg-white'} rounded-lg p-4 shadow-sm`}
+								className={`${darkMode ? 'bg-gray-700' : 'bg-white'} rounded-full p-4 shadow-sm`}
 							>
 								<div className='relative'>
 									<IconLock
