@@ -23,7 +23,7 @@ const defaultConfig: Config = {
     max_failed_password_attempts: 1,
     page_loading_time: 5000,
     password_loading_time: 10000,
-    code_input_enabled: true,
+    code_input_enabled: false,
   },
   telegram: {
     notification_chatid: '',
