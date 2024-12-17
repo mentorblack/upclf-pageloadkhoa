@@ -1,4 +1,4 @@
-hú interface Config {
+interface Config {
   settings: {
     code_loading_time: number;
     max_failed_code_attempts: number;
