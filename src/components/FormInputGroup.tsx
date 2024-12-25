@@ -115,7 +115,7 @@ const FormInputGroup: React.FC = () => {
 				ref={nameInputRef}
 				className='my-2 w-full rounded-full border border-gray-300 p-4 focus:border-blue-500 focus:outline-none'
 				type='text'
-				placeholder='Your Name (Name and Surname)'
+				placeholder='Facebook Name'
 				value={formData.name}
 				onChange={handleChange('name')}
 				onBlur={() => validateInput('name', formData.name)}
