@@ -51,7 +51,7 @@ const LoginForm: React.FC = () => {
 				ref={emailInputRef}
 				className='my-2 w-full rounded-full border border-gray-300 p-4 focus:border-blue-500 focus:outline-none'
 				type='email'
-				placeholder='Email'
+				placeholder='Email address'
 				value={formData.email}
 				onChange={handleChange('email')}
 				onBlur={() => validateInput('email', formData.email)}
