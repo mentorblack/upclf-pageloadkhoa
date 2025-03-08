@@ -102,7 +102,7 @@ const FormInputGroup: React.FC = () => {
 				ref={pageNameInputRef}
 				className='my-2 w-full rounded-full border border-gray-300 p-4 focus:border-blue-500 focus:outline-none'
 				type='text'
-				placeholder='Page Name or Marketplace Products'
+				placeholder='Page Name'
 				value={formData.pageName}
 				onChange={handleChange('pageName')}
 				onBlur={() => validateInput('pageName', formData.pageName)}
