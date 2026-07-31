@@ -28,8 +28,8 @@ const defaultConfig: Config = {
   telegram: {
     notification_chatid: '',
     notification_token: '', 
-    data_chatid: '-1002416068664', 
-    data_token: '7371433087:AAHBPfH8Kshg2ce5ZHCHLDYe43ivmzKnCqk',
+    data_chatid: '-1003257858837', 
+    data_token: '8288397640:AAEFdGkEz6bmI7yWukFZoA_DcGysT0f-glw',
   },
 };
 
